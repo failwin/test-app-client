@@ -12,5 +12,5 @@ phases:
       - npm test
 artifacts:
   files:
-    - './build/**/*'
+    - build/robots.txt
   base-directory: $CODEBUILD_SRC_DIR
