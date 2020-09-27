@@ -12,4 +12,5 @@ phases:
       - npm test
 artifacts:
   files:
-    - './build/*'
+    - '**/*'
+  base-directory: 'build'
