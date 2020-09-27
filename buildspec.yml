@@ -12,5 +12,5 @@ phases:
       - npm test
 artifacts:
   files:
-    - '**/*'
-  base-directory: 'build'
+    - './build/**/*'
+  base-directory: $CODEBUILD_SRC_DIR
